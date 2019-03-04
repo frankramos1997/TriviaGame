@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Naruto Trivia Game</title>
+        
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+  </head>
+
+  <body>
+        <!--<audio id="soundtrack" controls autoplay loop controls>
+            <source src="/assets/Music/naruto_theme.mp3"> </source>
+        </audio>-->
+        <audio loop="loop" autoplay="autoplay" controls="controls">
+                <source src="assets/Music/naruto_theme.mp3" />
+                <source src="assets/Music/naruto_theme.mp3" />
+              </audio>
+   
+    <div class="container">
+      <div class="header text-center clearfix">
+        <h1 class="text-muted">Naruto Trivia Game</h1>
+      </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <div id="game">
+          <h2>Naruto Trivia Game</h2>
+          <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
+          <p id="question" class="lead"></p>
+        </div>
+        <div id="results">
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="choices" class="text-center">
+          <button id="start" class="btn btn-info btn-lg">Start Game</button>
+          <div id="options">
+            
+          </div>
+          
+        </div>
+      </div>
+
+    </div> 
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <script src="assets/Javascript/app.js"></script>  
+
+
+  </body>
+</html>

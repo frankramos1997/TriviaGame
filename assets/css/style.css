@@ -1,0 +1,25 @@
+
+body {
+ background-image: url("../images/5248-SeriesHeaders_NARSHP_2000x800.jpg")
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.text-muted{
+    color: black;
+    font-size: 100px;
+}
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 15px;
+}
+#soundtrack{
+    opacity: 0;
+}
